@@ -47,6 +47,14 @@
       "price": 1700,
       "brandId": 902,
       "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-kidswear.jpg"
+    },
+    {
+      "id": 607,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-kidswear.jpg"
     }
   ]
 }
