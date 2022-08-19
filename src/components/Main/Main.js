@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Carousel from '../Pages/Carousel';
+import Product from '../Pages/Product';
 
 const Main = () => {
   return (
-    <div>
-      
-      hhhhhhhhh
-      
-    </div>
+    <React.Fragment>
+        <Carousel/>
+        <Product/>
+    </React.Fragment>
   )
 }
 

@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 601,
+      "name": "Floral Red Shirt",
+      "description": "Full Length Sleeve",
+      "price": 1200,
+      "brandId": 901,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-topsshirtstees.jpg"
+    },
+    {
+      "id": 602,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-dresses.jpg"
+    },
+    {
+      "id": 603,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-jeans.jpg"
+    },
+    {
+      "id": 604,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-formals.jpg"
+    },
+    {
+      "id": 605,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-activewear.jpg"
+    },
+    {
+      "id": 606,
+      "name": " Red Shirt with Blue Lines",
+      "description": "Full Length Sleeve",
+      "price": 1700,
+      "brandId": 902,
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-kidswear.jpg"
+    }
+  ]
+}
