@@ -24,7 +24,7 @@ import { NavLink } from "react-router-dom";
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-const drawerWidth = 240;
+const drawerWidth = 250;
 
 const Header = () => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -59,19 +59,19 @@ const Header = () => {
           >
             
              <Button sx={{ color: "black" }}>
-              <NavLink to='/' className="MobileLink" activeClassName="active" >Home</NavLink>
+              <NavLink to='/' className="MobileLink"  >Home</NavLink>
              </Button>
             <Button sx={{ color: "black" }}>
-              <NavLink to='/About' className="MobileLink" activeClassName="active"  >About</NavLink>
+              <NavLink to='/About' className="MobileLink"  >About</NavLink>
             </Button>
             <Button sx={{ color: "black" }}>
-              <NavLink to='/Service' className="MobileLink" activeClassName="active"  >Service</NavLink>
+              <NavLink to='/Service' className="MobileLink"  >Service</NavLink>
             </Button>
             <Button sx={{ color: "black" }}>
-              <NavLink to='/Product' className="MobileLink" activeClassName="active"  >Product</NavLink>
+              <NavLink to='/Product' className="MobileLink"   >Product</NavLink>
             </Button>
             <Button sx={{ color: "black" }}>
-              <NavLink to='/Contact' className="MobileLink" activeClassName="active"  >Contact</NavLink>
+              <NavLink to='/Contact' className="MobileLink"   >Contact</NavLink>
             </Button>
           </ButtonGroup>
         </ListItem>
@@ -184,21 +184,22 @@ const Header = () => {
                 aria-label="text button group"
                 color="inherit"
                 size="large"
+                
               >
-                <Button sx={{ my: 2, color: "white", display: "block" }}>
-                 <NavLink to='/' className="NavLink" activeClassName="active" >Home</NavLink>
+                <Button sx={{ my: 2, color: "white", display: "block" }} >
+                 <NavLink to='/' className="NavLink"  >Home</NavLink>
                 </Button>
                 <Button sx={{ my: 2, color: "white", display: "block" }}>
-                  <NavLink to='/About' className="NavLink" activeClassName="active"  >About</NavLink>
+                  <NavLink to='/About' className="NavLink"  >About</NavLink>
                 </Button>
                 <Button sx={{ my: 2, color: "white", display: "block" }}>
-                  <NavLink to='/Service' className="NavLink" activeClassName="active"  >Service</NavLink>
+                  <NavLink to='/Service' className="NavLink"  >Service</NavLink>
                 </Button>
                 <Button sx={{ my: 2, color: "white", display: "block" }}>
-                  <NavLink to='/Product' className="NavLink" activeClassName="active"  >Product</NavLink>
+                  <NavLink to='/Product' className="NavLink"   >Product</NavLink>
                 </Button>
                 <Button sx={{ my: 2, color: "white", display: "block" }}>
-                  <NavLink to='/Contact' className="NavLink" activeClassName="active"  >Contact</NavLink>
+                  <NavLink to='/Contact' className="NavLink"   >Contact</NavLink>
                 </Button>
               </ButtonGroup>
             </Box>
