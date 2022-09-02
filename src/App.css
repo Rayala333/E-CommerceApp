@@ -22,12 +22,14 @@
     color : #000;
 }
 .mulslider{
+  
   overflow: hidden;
   /* margin: 20px 2rem;
   margin-left: 3rem; */
   background-color: rgb(182, 174, 164);
   text-align: center;
   padding: 2rem 4rem;
+
 }
 
 .card{
