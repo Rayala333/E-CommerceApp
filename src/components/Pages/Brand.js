@@ -5,20 +5,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
+import {ArrowForwardIos,ArrowBackIos} from '@mui/icons-material';
 
 function SampleNextArrow(props) {
+  console.log(props)
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red"}}
-      onClick={onClick}
-    />
-
-    // <div onClick={onClick}>
-    //     <ArrowForwardOutlinedIcon />
-    // </div>
+        <div onClick={onClick} className={className} >
+          <ArrowForwardIos style={{fontSize:"2.3rem"}}/>
+        </div>
   );
 }
 
@@ -26,11 +21,9 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "flex", background: "green" }}
-      onClick={onClick}
-    />
+      <div onClick={onClick} className={className}>
+        <ArrowBackIos style={{fontSize:"2.3rem"}} />
+      </div>
   );
 }
 
@@ -68,6 +61,7 @@ const Brand = () => {
                         <img src={item.image} alt="newimage" width='100%' />
                 </div>
               </div>  
+              
             ))
           }
         </Slider>
