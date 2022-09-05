@@ -61,3 +61,10 @@
 .slick-prev::before,.slick-next::before{
   display: none;
 }
+
+.Detailsp{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}

@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import {ArrowForwardIos,ArrowBackIos} from '@mui/icons-material';
+import { NavLink } from "react-router-dom";
 
 function SampleNextArrow(props) {
   console.log(props)
@@ -57,13 +58,14 @@ const Brand = () => {
         <Slider {...settings}>
           {
             productess.map((item,id)=>(
-
+              <NavLink to={`/BrandDetails/${item.id}`} key={id}>
               <div className='card' >
-                <div class="card-body">
+                <div className="card-body" >
                         <img src={item.image} alt="newimage" width='100%' />
                 </div>
+                
               </div>  
-              
+              </NavLink>
             ))
           }
         </Slider>

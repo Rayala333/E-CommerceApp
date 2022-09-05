@@ -96,5 +96,40 @@
       "brandId": 902,
       "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-kidswear.jpg"
     }
+  ],
+
+  "brands":[
+    {
+      "brand_id": 601,
+      "name": "Nike",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-topsshirtstees.jpg"
+    },
+    {
+      "brand_id": 601,
+      "name": "Nike",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-topsshirtstees.jpg"
+    },
+    {
+      "brand_id": 601,
+      "name": "Nike",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-topsshirtstees.jpg"
+    },
+    {
+      "brand_id": 602,
+      "name": "puma",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-dresses.jpg"
+    },
+    {
+      "brand_id": 602,
+      "name": "puma",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-dresses.jpg"
+    },
+    {
+      "brand_id": 602,
+      "name": "puma",
+      "image": "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-westernwear-dresses.jpg"
+    }
   ]
 }
+
+
