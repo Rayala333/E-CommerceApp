@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
       <div onClick={onClick} className={className}>
-        <ArrowBackIos style={{fontSize:"2.3rem"}} />
+        <ArrowBackIos style={{fontSize:"2.3rem"}} className="arrow"/>
       </div>
   );
 }
@@ -51,7 +51,36 @@ const Brand = () => {
       slidesToShow: 4,
       slidesToScroll: 4,
       nextArrow: <SampleNextArrow  />,
-      prevArrow: <SamplePrevArrow />
+      prevArrow: <SamplePrevArrow />,
+      responsive:[
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: false,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            initialSlide: 2,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            dots: false,
+            initialSlide: 1,
+          }
+        }
+      ]
   }
   return (
     <div className='mulslider'>
@@ -61,7 +90,7 @@ const Brand = () => {
               <NavLink to={`/BrandDetails/${item.id}`} key={id}>
               <div className='card' >
                 <div className="card-body" >
-                        <img src={item.image} alt="newimage" width='100%' />
+                        <img src={item.image} alt="newimage"  className='imageclass' />
                 </div>
                 
               </div>  

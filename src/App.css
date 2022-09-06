@@ -48,6 +48,7 @@
 .slick-arrow.slick-next{
   background-color: #fff;
   box-shadow: 0px 5px 15px rgb(15, 1, 1)a;
+  max-width: 60px;
   width: 60px;
   height: 80px;
   color: #000;
@@ -67,4 +68,103 @@
   align-items: center;
   justify-content: space-around;
   margin: 10px;
+}
+
+.imageclass{
+  max-width: 100%;
+}
+.arrow{
+  font-size: 4rem;
+}
+
+
+@media screen and (max-width:412px) {
+  
+  .mulslider{
+    max-height: 100vh;
+    padding: 10px;
+    
+  }
+  .card{
+    max-width: 6rem !important;
+    margin-left: 0.7rem;
+  }
+  .imageclass{
+    width: 100%;
+  }
+  .slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+  display: none;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:414px) {
+  
+  .mulslider{
+    max-height: 100vh;
+    padding: 22px ;
+    
+  }
+  .card{
+    max-width: 7rem !important;
+    margin-left: 0.7rem;
+  }
+  .imageclass{
+    width: 100%;
+  }
+  .slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+  display: none;
+}
+
+}
+
+@media screen and (max-width:900px) and (min-width:601px) {
+  
+  .mulslider{
+    max-height: 100vh;
+    padding: 10px 50px;
+    
+  }
+  .card{
+    max-width: 10rem !important;
+    margin-left: 0.7rem;
+  }
+  .imageclass{
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width:1024px) and (min-width:900px) {
+  
+  .mulslider{
+    max-height: 100vh;
+    /* padding: 10px 30px; */
+    padding: 2rem;
+    
+  }
+  .card{
+    max-width: 14rem !important;
+    margin-left: 0.7rem;
+  }
+  .imageclass{
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width:1500px) and (min-width:1025px) {
+  
+  .mulslider{
+    max-height: 100vh;
+    padding: 10px 20px;
+    
+  }
+  .card{
+    max-width: 15rem !important;
+    margin-left: 0.7rem;
+  }
+  .imageclass{
+    width: 100%;
+  }
+ 
 }
